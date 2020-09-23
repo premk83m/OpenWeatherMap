@@ -1,0 +1,55 @@
+.wea_cnt{
+  border:1px solid #f9d9d9
+}
+.wea_cnt{
+  position: relative;
+  float: left;
+  width:100%;
+}
+.wea_cnt h2{
+color: #E91E63;
+}
+.wea_cnt ul{padding:0;margin:0}
+.wea_cnt ul li{
+list-style-type: none;
+padding:10px 20px;
+border:1px solid #f9d9d9
+}
+.wea_cnt ul li span{
+  display: inline-block;
+  width:50%
+}
+.wea_cnt ul li span:first-child{
+font-weight: bold;
+}
+.wea_cnt ul li:nth-child(even){
+  background: #f9d9d9;
+}
+.wea_cnt ul li span button{
+  width:100%
+}
+/* .wea_cnt .city_form{
+position: absolute;
+top:0;
+left:0;
+right: 0;
+bottom:0;
+} */
+.city_form{
+  text-align: center;
+  background: #e8e8e8;
+  padding: 15px 20px;
+  font-weight: bold;
+  color: #2196F3;
+}
+.col-sm-12{
+  text-align: center;
+}
+.error{
+  color:#e20;
+}
+.weath_name{
+  color: #2196F3;
+  font-weight: bold;
+  text-transform: capitalize;
+}
